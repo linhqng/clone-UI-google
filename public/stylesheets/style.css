@@ -1,0 +1,259 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: 2vh;
+}
+
+.nav-item {
+  float: left;
+  margin-right: 1.8vw;
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  color: #000;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.nav-item a:active,
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.nav-item a .fas.fa-th {
+  font-size: 1.2rem;
+  color: #727272;
+}
+
+.nav-item a .fas.fa-user-circle {
+  font-size: 1.5rem;
+  color: #727272;
+}
+
+.center {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.center .logo {
+  height: 20vh;
+  display: inline-block;
+}
+
+.center input {
+  display: inline-block;
+  width: 30vw;
+}
+
+.wrap-input {
+  margin: 30px auto;
+  width: 35vw;
+  border: 1px solid #e4e4e4;
+  padding: 1.5vh;
+  border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
+  position: relative;
+}
+
+.wrap-input input {
+  height: 3vh;
+  outline: none;
+  border: none;
+  font-size: 1.8vh;
+  padding-left: 20px;
+}
+
+.language {
+  margin-top: 5vh;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+
+.icon-search {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.pure-button {
+  margin-right: 15px;
+  border-radius: 2px !important;
+  opacity: 0.8;
+}
+
+.result {
+  text-align: center;
+  margin-top: 5vh;
+  letter-spacing: 0.6px;
+}
+
+/* footer */
+
+.M6hT6 {
+  left: 0;
+  right: 0;
+  -webkit-text-size-adjust: none;
+}
+
+.fbar a,
+#fsettl {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.fbar {
+  margin-left: -27px;
+}
+
+.Fx4vi {
+  padding-left: 27px;
+  margin: 0 !important;
+}
+
+#fbarcnt {
+  display: block;
+}
+
+.fmulti {
+  text-align: center;
+}
+
+#fsl {
+  white-space: nowrap;
+}
+
+#fbar {
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.B4GxFc {
+  margin-left: 166px;
+}
+
+.fbar p,
+.fbar a,
+#fsettl,
+#fsett a {
+  color: #5f6368;
+}
+
+.fbar a:hover,
+#fsett a:hover {
+  color: #333;
+}
+
+.fbar {
+  font-size: 14px;
+}
+
+.EvHmz {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.hRvfYe #fsettl:hover {
+  text-decoration: underline;
+}
+
+.hRvfYe #fsett a:hover {
+  text-decoration: underline;
+}
+
+.hRvfYe a:hover {
+  text-decoration: underline;
+}
+
+#fsl {
+  margin-left: 30px;
+}
+
+.fmulti #fsr {
+  display: block;
+  float: none;
+}
+
+#fsr {
+  float: right;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.fmulti #fsl {
+  margin-left: 0;
+}
+
+.fmulti #fsr {
+  margin-right: 0;
+}
+
+.b0KoTc {
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 27px;
+}
+
+.b0KoTc {
+  margin-left: 30px;
+  text-align: left;
+}
+
+.b2hzT {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.Q8LRLc {
+  font-size: 15px;
+}
+
+#fsett {
+  background: #fff;
+  border: 1px solid #999;
+  bottom: 30px;
+  padding: 10px 0;
+  position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  z-index: 128;
+}
+
+#fsett a {
+  display: block;
+  line-height: 44px;
+  padding: 0 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}
