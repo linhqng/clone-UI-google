@@ -1,8 +1,8 @@
 # clone-UI-google
-** please install dependencies:**
-**npm install livereload**
-**npm install connect-livereload**
-**npm install nodemon **
+#### ** please install dependencies:**
+#### ** npm install livereload **
+#### ** npm install connect-livereload **
+#### ** npm install nodemon **
 
 ### npm install
 
